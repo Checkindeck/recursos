@@ -1,0 +1,12 @@
+:root {
+  --first-color: #56c6d1;
+  --second-color: #48acb5;
+}
+
+.button {
+  background: var(--first-color);
+}
+
+.button:hover {
+  background: var(--second-color);
+}
