@@ -1,5 +1,5 @@
 {
-  "homepage": "https://checkindeck.github.io/recursos",
+  "homepage": "https://checkindeck.github.io/recursos/",
   "name": "checkindeck-resources",
   "private": true,
   "version": "0.0.0",
@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
